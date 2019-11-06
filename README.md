@@ -34,3 +34,5 @@ Jenkins http://localhost:8080/job/pipeline-demo/ 、 http://localhost:8080/job/s
 Github https://github.com/ascmaaa00/FSD_SBA
 
 
+#Install in windows.
+Postman-win64-7.10.0-Setup.exe 、 apache-jmeter-5.1.1 、jenkins-2.190.2 、docker desktop to run for SBA Assessment in windows.
