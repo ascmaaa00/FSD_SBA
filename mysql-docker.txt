@@ -1,0 +1,11 @@
+
+docker run --name mysql-account -p 32001:3306 -e MYSQL_ROOT_PASSWORD=123456 -e MYSQL_DATABASE=sba_account -e MYSQL_USER=user -e MYSQL_PASSWORD=123456 -d mysql:latest
+
+docker run --name mysql-course -p 32002:3306 -e MYSQL_ROOT_PASSWORD=123456 -e MYSQL_DATABASE=sba_course -e MYSQL_USER=user -e MYSQL_PASSWORD=123456 -d mysql:latest
+
+docker run --name mysql-payment -p 32003:3306 -e MYSQL_ROOT_PASSWORD=123456 -e MYSQL_DATABASE=sba_payment -e MYSQL_USER=user -e MYSQL_PASSWORD=123456 -d mysql:latest
+
+
+cd C:\D\文件\IBM\FSD\SBA_shawn\registry-master
+docker build -t registry . --no-cache
+docker run -p 10001:10001 registry

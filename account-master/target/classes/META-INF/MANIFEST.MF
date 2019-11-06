@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Class-Path: com/sba/account/SbaAccountApplication/Main
+Main-Class: com.sba.account.SbaAccountApplication
+
