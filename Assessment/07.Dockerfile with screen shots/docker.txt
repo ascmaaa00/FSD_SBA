@@ -1,0 +1,8 @@
+cd C:\D\文件\IBM\FSD\SBA_shawn\registry-master
+docker build -t registry . --no-cache
+docker run -d -p 10001:10001 registry
+
+
+cd C:\D\文件\IBM\FSD\SBA_shawn\gateway-master
+docker build -t gateway . --no-cache
+docker run -d -p 9000:9000 gateway
